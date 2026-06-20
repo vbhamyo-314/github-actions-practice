@@ -1,0 +1,23 @@
+# Workflow
+# Should Have Name
+name: Hello
+# on suggest when workflow will trigger at what event
+on: 
+  workflow_dispatch:  
+
+# Jobs
+# Should be inside the workflow
+# jobs tells the what the workflow should do
+jobs:
+  say-hello:
+    # create ephermal container with ubuntu running
+    runs-on:  ubuntu-latest
+    steps:
+      - name: say hello to everyone
+        run: echo "Hello Dosto"
+  
+# Steps
+# Should be inside the job
+
+# Actions
+# Should be inside the Steps
