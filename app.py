@@ -1,4 +1,4 @@
-# this code is for Flask App
+# this code is for Flask Applicaiton
 from flask import Flask, render_template
 app = Flask(__name__)
 
